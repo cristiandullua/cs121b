@@ -10,7 +10,7 @@
 // Step 6: Add another property named placesLived with a value of an empty array
 let profile = {
     name: 'Cristian Ullua',
-    photo: 'images\\placeholder.png',
+    photo: 'images\\me.jpg',
     favoriteFoods: [
         'Steak',
         'Pizza',
