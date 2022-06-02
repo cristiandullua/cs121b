@@ -1,7 +1,7 @@
 // APP CONSTS AND VARS
 const KELVIN = 273;
 // API KEY
-const key = "82005d27a116c2880c8f0fcb866998a0";
+const key = "bec5624c62f8be6d7eced015b2917da3";
 
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
