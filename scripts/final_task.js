@@ -1,7 +1,7 @@
 // APP CONSTS AND VARS
 const KELVIN = 273;
 // API KEY
-const key = "bec5624c62f8be6d7eced015b2917da3";
+const key = "3d1b0831b1da16a3f3031f32b0b476f9";
 
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
@@ -43,7 +43,7 @@ function showError(error){
 function getWeather(latitude, longitude){
     let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
     
-    await fetch(api)
+    fetch(api)
         .then(function(response){
             let data = response.json();
             return data;
